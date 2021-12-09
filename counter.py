@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit_pages.streamlit_pages 
-import MultiPage
+#import MultiPage
 
 def home():
     st.write("Welcome to home page")
