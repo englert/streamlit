@@ -55,3 +55,11 @@ img = Image.open("image-300x181.png")
 # display image using streamlit
 # width is used to set the width of an image
 st.image(img, width=200)
+
+# checkbox
+# check if the checkbox is checked
+# title of the checkbox is 'Show/Hide'
+if st.checkbox("Show/Hide"):
+   
+  # display the text if the checkbox returns True value
+  st.text("Showing the widget")
