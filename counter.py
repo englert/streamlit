@@ -24,3 +24,6 @@ st.header("This is a header")
  
 # Subheader
 st.subheader("This is a subheader")
+
+# Markdown
+st.markdown("### This is a markdown")
