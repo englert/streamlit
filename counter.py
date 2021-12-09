@@ -40,6 +40,8 @@ st.warning("Warning")
 # success
 st.error("Error")
 
+st.exception("This is an exception")
+
 # Write text
 st.write("Text with write")
  
