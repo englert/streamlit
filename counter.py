@@ -1,4 +1,10 @@
 import streamlit as st
+st.success("Successful")
+st.warning("Warning") 
+st.info("Some info")
+st.error("Error")
+st.exception("This is an exception")
+pass
 
 st.title('Counter')
 
@@ -41,6 +47,7 @@ st.warning("Warning")
 st.error("Error")
 
 st.exception("This is an exception")
+pass
 
 # Write text
 st.write("Text with write")
